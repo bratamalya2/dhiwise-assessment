@@ -141,7 +141,7 @@ function FunctionLabel({ elem, filesDataArr, edges }: {
             </div>
             <div className="my-4">
               <label htmlFor="value">Enter a value:</label>
-              <input type="text" onChange={(e) => setCurrentValue(e.target.value)} />
+              <input type="text" onChange={(e) => setCurrentValue(e.target.value)} className='border border-black w-[90%]' />
             </div>
           </>
         )}
